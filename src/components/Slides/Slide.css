@@ -14,7 +14,7 @@
   height: 100vh;
 }
 .slide{
-  transition: .5s;
+  transition: 1s ease-in-out;
   width: 75vw;
   height: 100vh;
 }
