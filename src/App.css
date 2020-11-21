@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.app-root{
+margin: 0;
+cursor: url('./assets/cursor.png'), auto;;
+}
+.overlay-text{
+    z-index: 2;
+    position: fixed;
+    left: 20vw;
+    top: 30vh;
+    width: 21%;
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: uppercase;
+    line-height: 1.1;
+    color: white;
+    /* transition: background-color 1s ease-out 1s; */
+}
+
+.small-text{
+    font-size: 1rem;
+}
+li{
+    text-decoration: none;
+    
+}

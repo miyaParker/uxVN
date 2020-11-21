@@ -1,0 +1,21 @@
+.top-nav-ul{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    top: 1.3rem;
+    left: 65vw;
+    text-transform: uppercase;
+}
+.top-nav-li{
+    font-weight: 600;
+    font-size: .9rem;
+    padding: .5rem 1rem;
+    list-style: none;
+    padding-top: .5rem;
+}
+.top-nav-active{
+    color: black;
+    background-color:rgba(255, 255, 255, 0.637);
+}

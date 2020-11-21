@@ -1,0 +1,109 @@
+.slider-root{
+  position: relative;
+  width: 75vw;
+  left: 25vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.slider{
+  width: 75vw;
+}
+.slides{
+ width: 300vw;
+ display: flex;
+  height: 100vh;
+}
+.slide{
+  transition: .5s;
+  width: 75vw;
+  height: 100vh;
+}
+.first-slide{
+  background-color: #36267D;
+}
+.second-slide{
+  background: #B400E0;
+ 
+}
+.third-slide{
+  background-color: #ED621D;
+}
+.fourth-slide{
+  background-color: #E09900;
+}
+.slides input{
+  display: none;
+}
+.nav-auto{
+  position: absolute;
+  width: 100%;
+  bottom: 3rem;
+  display: flex;
+  justify-content: center;
+}
+.nav-manual{
+  position: absolute;
+  width: 100%;
+  bottom: 3rem;
+  display: flex;
+  justify-content: center;
+}
+.nav-auto div{
+  border: 1px solid white;
+    padding: 3px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+  }
+.manual-btn{
+  border: 1px solid white;
+  padding: 3px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .3s;
+}
+.manual-btn:not(:last-child){
+  margin-right: .5rem;
+}
+.nav-auto div:not(:last-child){
+  margin-right:.5rem ;
+  }
+.manual-btn:hover{
+  background-color: white;
+}
+#btn-1:checked ~ .first{
+  margin-left: 0;
+}
+#btn-2:checked ~ .first{
+  margin-left: -75vw;
+}
+#btn-3:checked ~ .first{
+  margin-left: -150vw;
+}
+#btn-4:checked ~ .first{
+  margin-left: -225vw;
+}
+
+
+#btn-1:checked ~ .nav-auto .auto-btn1{
+  background: white;
+}
+#btn-2:checked ~ .nav-auto .auto-btn2{
+  background: white;
+}
+#btn-3:checked ~ .nav-auto .auto-btn3{
+  background: white;
+}
+#btn-4:checked ~ .nav-auto .auto-btn4{
+  background: white;
+}
+
+
+
+
+
+
+
+
+
+

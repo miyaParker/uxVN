@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.root{
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 25vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #281467;
+    /* transition: background-color 1s ease-out 1s; */
+}
+.p2r{
+    padding: 2rem;
+}
+li{
+    cursor: pointer ;
+    list-style: none;
+    padding-top: .5rem;
+}
